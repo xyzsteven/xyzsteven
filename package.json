@@ -1,0 +1,64 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/plugin-ideal-image": "^3.9.2",
+    "@docusaurus/plugin-pwa": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mdx-js/react": "^3.1.0",
+    "@mui/material": "^5.15.0",
+    "clsx": "^2.1.1",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "^3.9.2",
+    "@docusaurus/types": "^3.9.2",
+    "@tsconfig/docusaurus": "^2.0.3",
+    "@types/react": "^18.3.0",
+    "husky": "^9.0.0",
+    "lint-staged": "^15.0.0",
+    "prettier": "^3.4.0",
+    "typescript": "^5.6.3"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  }
+}

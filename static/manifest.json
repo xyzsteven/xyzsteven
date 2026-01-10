@@ -1,0 +1,15 @@
+{
+  "name": "xyzsteven.",
+  "short_name": "xyzsteven",
+  "theme_color": "#2196f3",
+  "background_color": "#424242",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./index.html",
+  "icons": [
+    {
+      "src": "img/icons/profile.png",
+      "type": "image/png"
+    }
+  ]
+}
