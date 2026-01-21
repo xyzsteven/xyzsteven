@@ -2,10 +2,10 @@ import React from 'react';
 import styles from './About.module.css';
 
 const skills = [
-  { category: 'Systems', items: ['Windows', 'Linux (Ubuntu/Debian)', 'Android ROMs', 'Docker'] },
-  { category: 'SIEM & SOC Ops', items: ['Wazuh', 'Grafana', 'TheHive', 'Cortex', 'Cloudflare'] },
-  { category: 'Offensive', items: ['Vuln. Assessment', 'Penetration Testing'] },
-  { category: 'Hardware', items: ['PC Building', 'Troubleshooting'] },
+  { category: 'OS & Virtualization', items: ['Windows', 'Linux (Ubuntu/Debian)', 'Android', 'Docker'] },
+  { category: 'Security Operations', items: ['Wazuh', 'Grafana', 'TheHive', 'Cortex', 'Cloudflare'] },
+  { category: 'Offensive', items: ['Vuln. Assessment', 'Penetration Testing', 'OWASP'] },
+  { category: 'System & Hardware', items: ['PC Building', 'Troubleshooting', 'Diagnostics', 'Migration'] },
 ];
 
 export const About: React.FC = () => {
@@ -25,7 +25,7 @@ export const About: React.FC = () => {
           </h2>
 
           <p className={styles.description}>
-            I am a Cybersecurity Engineering student at Polibatam with a deep passion about 
+            I am a Cybersecurity Engineering student at Polibatam with passion about 
             <strong> Network Security</strong>, <strong>Pentesting</strong> and 
             <strong> System Customization</strong>.
             <br/><br/>

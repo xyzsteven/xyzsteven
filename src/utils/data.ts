@@ -13,6 +13,15 @@ const caculateWorkLength = (startMonth: Date, endMonth: Date): number => {
 
 const projects: Array<ProjectType> = [
   {
+    img: 'img/pbl-rks517.png',
+    title: 'Vulnerability Assessment and Penetration Testing (VAPT) | Polibatam\'s Project Based Learning',
+    duration: 'Sep 2025 - Jan 2026',
+    description:
+      'Vulnerability Assessment and Penetration Testing (VAPT) is ​a Project Based Learning (PBL) that focus on conducting a comprehensive security assessment of web applications under Diskominfo Bintan. The objective is to identify critical security weaknesses, evaluate their potential impact, and provide strategic mitigation plans to strengthen the overall security posture of the digital infrastructure.',
+    showcaseLink: 'https://pbl.polibatam.ac.id/pamerin/detail.php?title=vulnerability-assesment-dan-penetration-testing-18&id=NDM1Ng==&ta=Nw==&id_tim=NTc0Mg==',
+    techstack: ['Penetration Testing', 'Vuln. Assessment', 'Burp Suite', 'Nikto', 'Nmap', 'OWASP ZAP', 'Wireshark', 'Kali Linux'],
+  },
+  {
     img: 'img/pesxplorer.png',
     title: 'PESXplorer',
     duration: 'Jul 2025 - Sep 2025',
