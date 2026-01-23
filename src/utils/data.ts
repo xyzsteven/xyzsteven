@@ -139,7 +139,7 @@ const education: Array<EducationType> = [
   {
     img: 'img/poli.png',
     school: 'State Polytechnic of Batam',
-    study: 'Cyber Security Engineering',
+    study: 'Cybersecurity Engineering',
     date: '2023 - Present',
   },
   {
