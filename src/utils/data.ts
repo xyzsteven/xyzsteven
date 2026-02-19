@@ -13,6 +13,15 @@ const caculateWorkLength = (startMonth: Date, endMonth: Date): number => {
 
 const projects: Array<ProjectType> = [
   {
+    img: 'img/dms-displayoutput.png',
+    title: 'DMS Display Output Plugins',
+    duration: 'Feb 2026',
+    description:
+      'A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (PC Only, Mirror, Extend, Second Screen Only).',
+    codeLink: 'https://github.com/xyzsteven/dms-displayoutput',
+    techstack: ['Hyprland', 'QML'],
+  },
+  {
     img: 'img/pbl-rks517.png',
     title: 'Vulnerability Assessment and Penetration Testing (VAPT) | Polibatam\'s Project Based Learning',
     duration: 'Sep 2025 - Jan 2026',
