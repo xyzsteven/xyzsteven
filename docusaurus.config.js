@@ -3,7 +3,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'xyzsteven.',
-  tagline: 'Cybersecurity Engineering Student. Exploring about SIEM, VAPT and System Customization. Also an Open Source and Android Custom ROMs Enthusiast.',
+  tagline: 'Cybersecurity Engineering Student. Exploring about SIEM, VAPT and System Customization. Also a Linux and Android Custom ROMs Enthusiast.',
   url: 'https://xyzsteven.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',

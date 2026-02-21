@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './About.module.css';
 
 const skills = [
-  { category: 'OS & Virtualization', items: ['Windows', 'Linux (Ubuntu/Debian)', 'Android', 'Docker'] },
+  { category: 'OS & Virtualization', items: ['Windows', 'Linux (Arch, Debian)', 'Android', 'Docker'] },
   { category: 'Security Operations', items: ['Wazuh', 'Grafana', 'TheHive', 'Cortex', 'Cloudflare'] },
   { category: 'Offensive', items: ['Vuln. Assessment', 'Penetration Testing', 'OWASP'] },
   { category: 'System & Hardware', items: ['PC Building', 'Troubleshooting', 'Diagnostics', 'Migration'] },
@@ -29,7 +29,7 @@ export const About: React.FC = () => {
             <strong> Network Security</strong>, <strong>Pentesting</strong> and 
             <strong> System Customization</strong>.
             <br/><br/>
-            Beyond my academic studies in Network Security, Penetration Testing and Digital Forensic. I am an Android Custom ROMs Enthusiast. I love exploring how operating systems work under the hood, optimizing systems, and building my own self-hosted solutions.
+            Beyond my academic studies in Network Security, Penetration Testing and Digital Forensic. I also a Linux and Android Custom ROMs Enthusiast. I love exploring how operating systems work under the hood, optimizing systems, and building my own self-hosted solutions.
           </p>
         </div>
 
