@@ -17,7 +17,7 @@ const projects: Array<ProjectType> = [
     title: 'DMS Display Output Plugins',
     duration: 'Feb 2026',
     description:
-      'A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (PC Only, Mirror, Extend, Second Screen Only).',
+      'A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (Single Display, Mirror, Extend).',
     codeLink: 'https://github.com/xyzsteven/dms-displayoutput',
     techstack: ['Hyprland', 'QML'],
   },
