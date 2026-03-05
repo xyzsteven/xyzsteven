@@ -126,7 +126,7 @@ const experience: Array<ExperienceType> = [
       "Performed quality control through product sampling and inspection,",
       'Monitored production processes and recorded results on check sheets.',
     ],
-    techstack: ['EHS', 'SOP Compliance', 'Quality Control', 'Machine Operation,', 'Process Monitoring', 'Communication'],
+    techstack: ['EHS', 'SOP Compliance', 'Quality Control', 'Machine Operation', 'Process Monitoring', 'Communication'],
   },
   {
     img: 'img/hln.jpg',
