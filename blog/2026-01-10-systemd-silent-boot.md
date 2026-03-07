@@ -1,9 +1,9 @@
 ---
-slug: arkaiv-software-list
-title: "Arkaiv Software List"
+slug: systemd-silent-boot
+title: "CachyOS Systemd Silent Boot"
 authors: [xyzsteven]
-tags: [software, productivity, open-source]
-description: A curated list of free and open-source applications I rely on daily for productivity, system customization, and experimentation.
+tags: [linux, systemd, cachyos]
+description: True Silent Boot on CachyOS (systemd-boot & Plymouth).
 ---
 
 # CachyOS Systemd Silent Boot
