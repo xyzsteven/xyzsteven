@@ -36,8 +36,9 @@ const projects: Array<ProjectType> = [
     title: 'PESXplorer',
     duration: 'Jul 2025 - Sep 2025',
     description:
-      'A fast, client-side desktop web application for searching, filtering, and comparing player. Designed to help users find the perfect player using both general criteria and deep attribute analysis.',
+      'A fast, client-side desktop web application for searching, filtering, and comparing player. Designed to help users find the perfect player using both general criteria and deep attribute analysis. Also used for digital transformation of the Pro Evolution Soccer (PES) competition @ HMTI Fair 2025, elevating the tournament format to a professional E-Sports standard through custom software solutions.',
     codeLink: 'https://github.com/xyzsteven/PESXplorer',
+    showcaseLink: 'https://www.linkedin.com/posts/stevenjuliano_hmtifair2025-eventhmti-pes2021-activity-7399792853914337280-LPyh',
     liveLink: 'https://pesxplorer.xyz/',
     techstack: ['JavaScript', 'HTML', 'CSS', 'Cloudflare'],
   },
